@@ -18,7 +18,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[learn_chef_apache2::default]
+      - recipe[docker_myapp::default]
     verifier:
       inspec_tests:
         - test/smoke/default
